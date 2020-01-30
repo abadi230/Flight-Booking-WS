@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:9090/Travel2WebService/Travel2WebService?wsdl" uri="xml-resources/web-service-references/Travel2WebService/wsdl/localhost_9090/Travel2WebService/Travel2WebService.wsdl"/>
+    <system systemId="http://localhost:9090/Travel2WebService/Travel2WebService?xsd=1" uri="xml-resources/web-service-references/Travel2WebService/wsdl/localhost_9090/Travel2WebService/Travel2WebService.xsd_1.xsd"/>
+    <system systemId="http://localhost:9090/CurrencyConvertor/CurrencyConversionWSService?wsdl" uri="xml-resources/web-service-references/CurrencyConversionWSService/wsdl/localhost_9090/CurrencyConvertor/CurrencyConversionWSService.wsdl"/>
+    <system systemId="http://localhost:9090/CurrencyConvertor/CurrencyConversionWSService?xsd=1" uri="xml-resources/web-service-references/CurrencyConversionWSService/wsdl/localhost_9090/CurrencyConvertor/CurrencyConversionWSService.xsd_1.xsd"/>
+    <system systemId="http://localhost:9090/TravelAgencyWS/TravelAgencyWS?wsdl" uri="xml-resources/web-service-references/TravelAgencyWS/wsdl/localhost_9090/TravelAgencyWS/TravelAgencyWS.wsdl"/>
+    <system systemId="http://localhost:9090/TravelAgencyWS/TravelAgencyWS?xsd=1" uri="xml-resources/web-service-references/TravelAgencyWS/wsdl/localhost_9090/TravelAgencyWS/TravelAgencyWS.xsd_1.xsd"/>
+</catalog>

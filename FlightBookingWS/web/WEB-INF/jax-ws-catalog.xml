@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/abadi/Desktop/Cloud/Travel%20Agency/Flight%20Booking%20WS/FlightBookingWS/src/java/FlightsXSD.xsd" uri="src/conf/xml-resources/jaxb/Flights/FlightsXSD.xsd"/>
+    <system systemId="http://localhost:9090/CurrencyConvertor/CurrencyConversionWSService?wsdl" uri="wsdl/localhost_9090/CurrencyConvertor/CurrencyConversionWSService.wsdl"/>
+    <system systemId="http://localhost:9090/CurrencyConvertor/CurrencyConversionWSService?xsd=1" uri="wsdl/localhost_9090/CurrencyConvertor/CurrencyConversionWSService.xsd_1.xsd"/>
+</catalog>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TravelAgencyRoot xmlns="http://xml.netbeans.org/schema/FlightsXSD">
+    <Flight_collection>
+        <City>Nottingham</City>
+        <Destination>Milan</Destination>
+        <Airline>Air Italy</Airline>
+        <Seats>200</Seats>
+        <Connection>2</Connection>
+        <Fare>
+            <Currency>GBP</Currency>
+            <Value>700.0</Value>
+        </Fare>
+        <originAir_address>place_id:ChIJ55zFpnzEeUgRsrQcL1Zx0SQ</originAir_address>
+        <distinationAir_address>place_id:ChIJAaVFUqbIhkcRzZD_dtY76BQ</distinationAir_address>
+    </Flight_collection>
+    <Flight_collection>
+        <City>London</City>
+        <Destination>Paris</Destination>
+        <Airline>British Airways</Airline>
+        <Seats>10</Seats>
+        <Connection>0</Connection>
+        <Fare>
+            <Currency>GBP</Currency>
+            <Value>200.0</Value>
+        </Fare>
+        <originAir_address>place_id:ChIJhza7Doio2EcRSxpLpqDodAc</originAir_address>
+        <distinationAir_address>place_id:ChIJW89MjgM-5kcRLKZbL5jgKwQ</distinationAir_address>
+    </Flight_collection>
+    <Flight_collection>
+        <City>London</City>
+        <Destination>Paris</Destination>
+        <Airline>France Airline</Airline>
+        <Seats>80</Seats>
+        <Connection>1</Connection>
+        <Fare>
+            <Currency>GBP</Currency>
+            <Value>100.0</Value>
+        </Fare>
+        <originAir_address>place_id:ChIJhza7Doio2EcRSxpLpqDodAc</originAir_address>
+        <distinationAir_address>place_id:ChIJW89MjgM-5kcRLKZbL5jgKwQ</distinationAir_address>
+    </Flight_collection>
+    <Flight_collection>
+        <City>London</City>
+        <Destination>Edinburgh</Destination>
+        <Airline>British Airways</Airline>
+        <Seats>120</Seats>
+        <Connection>0</Connection>
+        <Fare>
+            <Currency>GBP</Currency>
+            <Value>50.0</Value>
+        </Fare>
+        <originAir_address>place_id:ChIJhza7Doio2EcRSxpLpqDodAc</originAir_address>
+        <distinationAir_address>place_id:ChIJfQHjkw7Fh0gRm9WxkiUKUxk</distinationAir_address>
+    </Flight_collection>
+    <Flight_collection>
+        <City>Brussels</City>
+        <Destination>Antwerp</Destination>
+        <Airline>Air Belgium</Airline>
+        <Seats>80</Seats>
+        <Connection>0</Connection>
+        <Fare>
+            <Currency>GBP</Currency>
+            <Value>30.0</Value>
+        </Fare>
+        <originAir_address>place_id:ChIJ7XVSxL7dw0cR5CV_Dj5OUSQ</originAir_address>
+        <distinationAir_address>place_id:ChIJoRVJ_Vf3w0cRmcqeCv33EYQ</distinationAir_address>
+    </Flight_collection>
+    <Flight_collection>
+        <City>Toronto</City>
+        <Destination>Montreal</Destination>
+        <Airline>Air Canada</Airline>
+        <Seats>150</Seats>
+        <Connection>0</Connection>
+        <Fare>
+            <Currency>GBP</Currency>
+            <Value>40.0</Value>
+        </Fare>
+        <originAir_address>place_id:ChIJ2wuDYXQ5K4gR2LEWU8v8ccs</originAir_address>
+        <distinationAir_address>place_id:ChIJK8nYU3c9yUwRjWcUEHmoMB4</distinationAir_address>
+    </Flight_collection>
+    <Flight_collection>
+        <City>Beijing</City>
+        <Destination>Shanghai</Destination>
+        <Airline>China Airline</Airline>
+        <Seats>80</Seats>
+        <Connection>0</Connection>
+        <Fare>
+            <Currency>GBP</Currency>
+            <Value>100.0</Value>
+        </Fare>
+        <originAir_address>place_id:ChIJGyBw9t0F8TURVL4jTjr1fEk</originAir_address>
+        <distinationAir_address>place_id:ChIJwVCVdt6PrTURXzUsyXET5Mk</distinationAir_address>
+    </Flight_collection>
+    <Flight_collection>
+        <City>Rome</City>
+        <Destination>Milan</Destination>
+        <Airline>Air Italy</Airline>
+        <Seats>80</Seats>
+        <Connection>0</Connection>
+        <Fare>
+            <Currency>GBP</Currency>
+            <Value>80.0</Value>
+        </Fare>
+        <originAir_address>place_id:ChIJHxSYOHnwJRMRbzFY47QT5a8</originAir_address>
+        <distinationAir_address>place_id:ChIJAaVFUqbIhkcRzZD_dtY76BQ</distinationAir_address>
+    </Flight_collection>
+    <Flight_collection>
+        <City>Madrid</City>
+        <Destination>Barcelona</Destination>
+        <Airline>Air Europa Express</Airline>
+        <Seats>80</Seats>
+        <Connection>0</Connection>
+        <Fare>
+            <Currency>GBP</Currency>
+            <Value>20.0</Value>
+        </Fare>
+        <originAir_address>place_id:ChIJgTwKgJcpQg0RaSKMYcHeNsQ</originAir_address>
+        <distinationAir_address>place_id:ChIJpY58hGSepBIR15tv-0LpK_M</distinationAir_address>
+    </Flight_collection>
+</TravelAgencyRoot>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DirectionsResponse>
+ <status>NOT_FOUND</status>
+ <geocoded_waypoint>
+  <geocoder_status>OK</geocoder_status>
+  <type>postal_code</type>
+  <place_id>ChIJq6ho-drpeUgRHxFEXThcfxc</place_id>
+ </geocoded_waypoint>
+ <geocoded_waypoint>
+  <geocoder_status>ZERO_RESULTS</geocoder_status>
+ </geocoded_waypoint>
+</DirectionsResponse>
+

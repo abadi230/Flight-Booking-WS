@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://travelagency/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://travelagency/">
+
+<xs:element name="Book" type="tns:Book"/>
+
+<xs:element name="BookResponse" type="tns:BookResponse"/>
+
+<xs:element name="GetConversionRate" type="tns:GetConversionRate"/>
+
+<xs:element name="GetConversionRateResponse" type="tns:GetConversionRateResponse"/>
+
+<xs:element name="GetCurrencyCodes" type="tns:GetCurrencyCodes"/>
+
+<xs:element name="GetCurrencyCodesResponse" type="tns:GetCurrencyCodesResponse"/>
+
+<xs:element name="SearchFlight" type="tns:SearchFlight"/>
+
+<xs:element name="SearchFlightResponse" type="tns:SearchFlightResponse"/>
+
+<xs:element name="destinationAirport" type="tns:destinationAirport"/>
+
+<xs:element name="destinationAirportResponse" type="tns:destinationAirportResponse"/>
+
+<xs:element name="destinationCities" type="tns:destinationCities"/>
+
+<xs:element name="destinationCitiesResponse" type="tns:destinationCitiesResponse"/>
+
+<xs:element name="originAirport" type="tns:originAirport"/>
+
+<xs:element name="originAirportResponse" type="tns:originAirportResponse"/>
+
+<xs:element name="originCities" type="tns:originCities"/>
+
+<xs:element name="originCitiesResponse" type="tns:originCitiesResponse"/>
+
+<xs:complexType name="SearchFlight">
+<xs:sequence>
+<xs:element name="origin" type="xs:string" minOccurs="0"/>
+<xs:element name="destination" type="xs:string" minOccurs="0"/>
+<xs:element name="currency" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SearchFlightResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:anyType" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="GetConversionRate">
+<xs:sequence>
+<xs:element name="fromCurr" type="xs:string" minOccurs="0"/>
+<xs:element name="toCurr" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="GetConversionRateResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="GetCurrencyCodes">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="GetCurrencyCodesResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:anyType" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="destinationCities">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="destinationCitiesResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:anyType" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="destinationAirport">
+<xs:sequence>
+<xs:element name="destination" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="destinationAirportResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="originCities">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="originCitiesResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:anyType" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="originAirport">
+<xs:sequence>
+<xs:element name="origin" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="originAirportResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Book">
+<xs:sequence>
+<xs:element name="origin" type="xs:string" minOccurs="0"/>
+<xs:element name="destination" type="xs:string" minOccurs="0"/>
+<xs:element name="airline" type="xs:string" minOccurs="0"/>
+<xs:element name="passengers" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="BookResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:anyType" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

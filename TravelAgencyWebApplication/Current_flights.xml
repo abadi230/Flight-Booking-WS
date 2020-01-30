@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TravelAgencyRoot xmlns="http://xml.netbeans.org/schema/TraveAgencyXmlSchema">
+    <Flight_collection>
+        <City>Nottingham</City>
+        <Destination>Jeddah</Destination>
+        <Airline>Turkish Airline</Airline>
+        <Seats>35</Seats>
+        <Connection>2</Connection>
+        <Fare>
+            <Currency>GBP</Currency>
+            <Value>700.0</Value>
+        </Fare>
+    </Flight_collection>
+    <Flight_collection>
+        <City>London</City>
+        <Destination>Madinah</Destination>
+        <Airline>Saudi Airline</Airline>
+        <Seats>50</Seats>
+        <Connection>1</Connection>
+        <Fare>
+            <Currency>GBP</Currency>
+            <Value>450.0</Value>
+        </Fare>
+    </Flight_collection>
+    <Flight_collection>
+        <City>London</City>
+        <Destination>Madinah</Destination>
+        <Airline>Jurden Airline</Airline>
+        <Seats>80</Seats>
+        <Connection>3</Connection>
+        <Fare>
+            <Currency>GBP</Currency>
+            <Value>250.0</Value>
+        </Fare>
+    </Flight_collection>
+    <Flight_collection>
+        <City>Paris</City>
+        <Destination>London</Destination>
+        <Airline>France Airline</Airline>
+        <Seats>10</Seats>
+        <Connection>0</Connection>
+        <Fare>
+            <Currency>GBP</Currency>
+            <Value>100.0</Value>
+        </Fare>
+    </Flight_collection>
+</TravelAgencyRoot>
